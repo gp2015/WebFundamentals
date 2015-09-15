@@ -1,0 +1,125 @@
+body {
+	font-family: 'Slabo 27px', serif;
+	background: url(./imgs/background.jpg);
+	background-size: 100%;
+}
+
+.banner {
+	border: 2px solid black;
+	border-radius: .5em;
+	background-color: rgba(0, 0, 0, 0.3);
+	padding: 2px;
+	margin-bottom: 10px;
+}
+
+.banner h1 {
+	position: relative;
+	left: 2.5%;
+	width: 80%;
+}
+
+.banner p {
+	position: relative;
+	left: 2.5%;
+	width: 80%;
+}
+
+#navigation {
+	width: 20%;
+	float: left;
+	padding: 5px;
+	height: 330px;
+}
+
+#navigation h2 {
+	text-align: center;
+}
+
+nav li {
+	list-style-type: none;
+	margin-right: 2.5em;
+	padding: 5px;
+	font-weight: bold;
+}
+
+nav a {
+	text-decoration: none;
+	color: black;
+	background-color: white;
+	display: block;
+	border: 2px solid black;
+	border-radius: .5em;
+	text-align: center;
+}
+
+nav a:visited {
+	color: black;
+	background-color: white;
+}
+
+nav a:hover {
+	background-color: black;
+	color: white;
+}
+
+.main-content {
+	position: relative;
+	margin-right: 20%;
+	margin-left: 20%;
+    margin-top: -3%;
+	width: 50%;
+	padding: 40px;
+}
+
+.main-content h2 {
+	font-family: 'Droid Serif', serif;
+}
+
+.main-content img {
+	display: block;
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#right-side {
+	float: right;
+	width: 20%;
+	padding: 5px;
+	height: 330px;
+}
+
+#right-side h2 {
+	text-align: center;
+}
+
+#right-side a {
+	text-decoration: none;
+    color: black;
+}
+
+#right-side a:visited {
+	text-decoration: none;
+	color: black;
+}
+
+#right-side a:hover {
+	font-weight: bold;
+	color: white;
+}
+
+.footer {
+	border: 2px solid black;
+	border-radius: .5em;
+	position: absolute;
+	bottom: 0;
+	width: 93.5%;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: rgba(0, 0, 0, 0.3);
+	text-align: center;
+	padding: 2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
